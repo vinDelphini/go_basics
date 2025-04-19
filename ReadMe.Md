@@ -49,4 +49,24 @@ import "strings"
 
 ---
 
-Let me know if you'd like a printable PDF version or want to expand this further!
+go_tutorials/
+│
+├── README.md
+├── main.go                      # Entry point to run the application
+│
+├── core_concepts/              # Core language topics
+│   ├── variables.go
+│   ├── functions.go
+│   ├── arrays_slices_maps.go
+│   ├── strings_runes_bytes.go
+│   └── structs_interfaces.go
+│
+├── main_concepts/              # Advanced topics
+│   ├── pointers.go
+│   ├── goroutines.go
+│   ├── channels.go
+│   └── generics.go
+│
+└── utils/                      # Reusable helpers/constants
+    ├── helpers.go
+    └── constants.go
