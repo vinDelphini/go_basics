@@ -2,19 +2,13 @@ package main
 
 import (
 	"fmt"
+	// "go_tutorials/main_concepts"
+	// "go_tutorials/core_concepts"
+	ch "go_tutorials/challenges/go_challenges"
 )
 
 func main(){
-	fmt.Println(armstrong(153))
-
-	var myEngine gasEngine = gasEngine{25, 15}
-	canMakeIt(myEngine, 50)
-
-	var myEngine2 electricEngine = electricEngine{25, 15}
-	canMakeIt(myEngine2, 100)
-
-	nums := [5]float64{2, 3, 4, 5, 6}
-	fmt.Printf("%p\n", &nums)
-	result := square(&nums)
-	fmt.Println(result)
+	fmt.Println("Hello World!")
+	// fmt.Println(HideCardNumber(1234567812345678))
+	fmt.Println(ch.HideCreditCardNumber(1234567812345678))
 }
