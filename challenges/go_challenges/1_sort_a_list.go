@@ -23,3 +23,19 @@ func SortByInput(nums []int, order string) []int {
 	}
 	return result
 }
+
+
+// just sort a list
+
+func SortList(nums []int) ([]int, []int) {
+
+	asc := make([]int, len(nums))
+	copy(asc, nums)
+
+	desc:= make([]int, len(nums))
+	copy(desc, nums)
+
+	sort.Ints(asc)
+	sort.Sort(sort.Reverse(sort.IntSlice(desc)))
+	return asc, desc
+}
